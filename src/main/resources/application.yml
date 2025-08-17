@@ -30,7 +30,7 @@ auth:
     issuer: auth-service
     access-ttl-seconds: 1800
     refresh-ttl-seconds: 1209600
-    secret: "change-this-super-secret-please-32b-min"
+    secret: ${JWT_SECRET}
 
 management:
   endpoints:
